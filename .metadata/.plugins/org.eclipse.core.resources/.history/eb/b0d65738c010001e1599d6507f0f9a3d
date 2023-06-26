@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delivery_Info</title>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+	<div id="mydiv">
+		<h1>주문하기</h1>
+		<form>
+			<fieldset>
+				<legend>배송정보</legend>
+				<!-- ul ol 쓰거나, 아니면 p태그 써도 됨 -->
+				<p>
+					<label for="uname">이름</label>
+					<input type="text" id="uname" name="name">
+				</p>			
+				<p>
+					<label for="uname">배송주소</label>
+					<input type="text" id="uname" name="name">
+				</p>			
+			</fieldset>
+		</form>
+	</div>		
+</body>
+</html>

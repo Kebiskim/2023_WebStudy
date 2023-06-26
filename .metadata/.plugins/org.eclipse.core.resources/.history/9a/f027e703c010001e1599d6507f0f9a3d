@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delivery_Info</title>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+	<div id="mydiv">
+		<h1>주문하기</h1>
+		<form>
+			<fieldset>
+				<legend>배송정보</legend>
+				<label for="">이름</label>
+				<input type="text" id 			
+			</fieldset>
+		</form>
+	</div>		
+</body>
+</html>

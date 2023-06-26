@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delivery_Info</title>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+	<div id="mydiv">
+		<h1>주문하기</h1>
+		<form>
+			<fieldset>
+				<legend>배송정보</legend>
+				<!-- ul ol 쓰거나, 아니면 p태그 써도 됨 -->
+				<p>
+					<label for="uname">이름</label>
+					<input type="text" id="uname" name="name">
+				</p>			
+				<p>
+				<!-- id랑 name이랑 같아도 상관 없다! -->
+					<label for="addr">배송 주소</label>
+					<input type="text" id="addr" name="addr">
+				</p>			
+				<p>
+				<!-- id랑 name이랑 같아도 상관 없다! -->
+					<label for="mail">이메일</label>
+					<input type="text" id="mail" name="mail">
+				</p>			
+				<p>
+				<!-- id랑 name이랑 같아도 상관 없다! -->
+					<label for="phone">연락처</label>
+					<input type="text" id="mail" name="mail">
+				</p>			
+			</fieldset>
+		</form>
+	</div>		
+</body>
+</html>

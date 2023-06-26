@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NewsLetter</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	#mydiv{
+		width: 1200px;
+		margin: 20px auto;
+	}
+	#header{
+		width: 100%; /* 부모 요소의 너비와 같게. */
+		height: 60px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	section{
+		width: 65%;
+		height: 600px;
+	}
+	#contents{
+		/* 숫자를 지정하면, 늘리고 줄이고 할 때 내용이 사라짐. (깨짐) */
+		/* 줄이는 걸 안 만들었을 경우에는 크롬에서 최적화되어 있고, 최대 확대해서 써라~ 이런식으로 쓰고 욕먹는다. */
+		float: left;
+	}
+	#right-sidebar{
+		width: 35%;
+		height: 600px;
+		float: left;
+	
+	}
+	/* 메뉴 */
+	ul.nav{
+ 		background-color:lightgray;
+ 		color: white;
+ 		list-style-type: none;
+ 		overflow: hidden;
+ 		padding-left: 20px;
+ 		margin: 0;
+ 	}
+	.nav li{
+ 		display: inline-block;
+ 		font-size: 20px;
+ 		margin: auto;
+ 		float: left;
+ 	}
+ 	li a{
+ 		display: inline-block;
+ 		/* 밑줄 없애기 */
+ 		text-decoration: none;
+ 		color: white;
+ 		padding: 15px 20px;
+ 	}
+ 	li a:hover{
+ 		background-color: gray;
+ 	}
+	#footer{
+		width: 100%;
+		height: 75px;
+		background-color: lightgary;
+		clear: left;
+	}
+	.article{
+		border: 1px solid back;
+		width: 400px;
+	}
+</style>
+</head>
+<body>
+	<div id="mydiv">
+		<header id="header">
+			<h1>한국 ICT 인재 개발원 소식</h1>
+		</header>
+		<!-- nav는 header 안, 밖 어디든 갈 수 있다! -->
+		<ul class="nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Content</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<section id="contents">
+			<article class="article">
+				<h1>article-1</h1>
+				<p>You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				</p>
+			</article>
+			<article class="article">
+				<h1>article-2</h1>
+				<p>You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				</p>
+			</article>
+			<article class="article">
+				<h1>article-3</h1>
+				<p>You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				</p>			
+			</article>
+			<article class="article">
+				<h1>article-4</h1>
+				<p>You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+				</p>	
+			</article>
+		</section>		
+		<aside id="right-sidebar">
+			<h1>aside</h1>
+			You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+		</aside>
+		<footer id="footer">
+			<h1>footer</h1>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table_span</title>
+</head>
+<body>
+<!--
+	열합치기 : colspan ="합쳐질 숫자"
+	가장 왼쪽만 살아남아서 합치기를 한다.
+	행합치기(상하) : rowspan ="합쳐질 숫자" 
+ -->
+</body>
+</html>

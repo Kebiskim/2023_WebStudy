@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+</style>
+</head>
+<body>
+	<img src="../images/pic_trulli.jpg" style="width: 350px;">
+	<img src="../images/pic_trulli.jpg" style="width: 350px;" id="round">
+</body>
+</html>

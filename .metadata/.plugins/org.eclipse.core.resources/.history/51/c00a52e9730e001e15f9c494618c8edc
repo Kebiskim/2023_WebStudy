@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>style 속성</title>
+</head>
+<body>
+<!-- 
+	HTML style 속성은 색상, 글꼴, 크기 등과 같은 요소에 스타일을 추가하는 데 사용된다.
+	background-color : 배경색
+	color 			 : 글자색
+	font-family		 : 글꼴
+	font-size		 : 텍스트 크기
+	text-align		 : 텍스트 정렬
+	
+	<시작태그 속성 = "값" 속성 = "값" 속성 = "값" 속성 = "값>
+	<시작태그 style = "속성:값;   속성:값;   속성:값;">
+	HTML에서는 속성 : Attribute, CSS에서는 속성을 property라고 부름
+	 
+ -->
+ 
+ <!-- 배경색과 글자색 -->
+ <p style="background-color: tomato">한국 ICT 인재 개발원</p>
+ <p>한국 ICT 인재 개발원</p>
+ <p style="color:tomato">한국 ICT 인재 개발원</p>
+ <p>한국 ICT 인재 개발원</p>
+ <p style="background-color: tomato; color: white;">한국 ICT 인재 개발원</p>
+ <p>한국 ICT 인재 개발원</p>
+ <hr>
+
+ <!-- 
+ 	Fonts : font-weight(굵기), font_fmail(글꼴), font-size(크기)
+ 			font-style(스타일), text-align(정렬) : 인라인 에서는 의미가 없다.
+ 			(차지한 공간이 따로 없기 때문, p태그에서는 가능)
+ 			font-family(글꼴) => 나중에 webFont를 배워서 사용하자
+  -->
+  <p>한국 ICT 인재 개발원2</p>
+  <p>한국 ICT 인재 개발원2</p>
+  <p>한국 ICT 인재 개발원2</p>
+  <p>한국 ICT 인재 개발원2</p>
+  <hr>
+  
+</body>
+</html>

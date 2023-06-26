@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가상 선택자 : pseudo select</title>
+</head>
+<body>
+	<nav class="navi">
+		<ul>
+			<li><a href="#">이용 안내</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

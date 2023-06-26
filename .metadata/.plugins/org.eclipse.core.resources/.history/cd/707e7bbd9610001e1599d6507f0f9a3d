@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 태그</title>
+</head>
+<body>
+<!-- 
+	form : 사용자에게 정보를 입력받아 원하는 페이지(서버)에게 
+		   정보를 보낸다.
+	<form [action=""] [method=""] [enctype=""]>
+		form elements(폼 요소들)
+	</form>
+	1. action="정보가 전달되는 페이지경로(서버경로)"
+	2. method = "정보를 전달하는 방법"
+		- get(생략) : 정보를 head에 담아서 보낸다.
+					 적은용량만 가능, 주소창에 내용이 보인다.
+					 보안에 취약, 속도는 빠르다. ex) 검색
+		- post : 정보를 body에 담아서 보낸다.
+				 많은용량 가능, 주소창에 내용이 보이지 않는다.
+				 상대적으로 보안적이다.
+	3. enctype : 파일 업로드할 때만 사용 (평소에는 생략)
+ -->
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>배경그림</title>
+</head>
+<body>
+<!-- 
+	보통 <body background-image:url(그림위치)
+		특별히 지정하지 않으면 바둑판(격자) 모양이다.
+		변경하려면 background-image : 표현방식;
+		표현방식 : repeat : 생략 => 
+ -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Float</title>
+</head>
+<body>
+<!-- 
+	float : 화면 좌우에 어떤 요소가 자리를 차지할 수 있도록 지정
+			원래 목적은 그림과 글자 위치 지정 (day02-ex05)
+			메뉴 : (day03-ex08)
+			- left, right, none, inherit (부모의 float값을 상속 받는다.)
+ -->
+ 	<header>
+ 		<nav>
+ 			<ul>
+ 			
+ 			</ul>
+ 		</nav>
+ 	</header>
+ 	
+</body>
+</html>

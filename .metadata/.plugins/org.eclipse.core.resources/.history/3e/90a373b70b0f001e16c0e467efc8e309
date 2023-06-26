@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	a:link, a:visited{
+		background-color: tomato;
+		color: white;
+		text-decoration: none;
+	}
+	a:hover{
+		background-color: skyblue;
+	}
+</style>
+</head>
+<body>
+	<h2>Link Button</h2>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a 태그</title>
+<style type="text/css">
+	a{
+		text-decoration: none;
+	}
+
+</style>
+
+</head>
+<body>
+<!-- 
+	a: 링크태그
+	<a href="url" target="value"> 텍스트 </a>
+		- href = #은 현재문서를 뜻한다.
+		- target = "_blank" (새창)
+				   "_self(default, 자기자신)
+				   "_parents"(부모창)"
+				   name(같은 페이지에서 name을 지정한 위치를 말한다.)
+ -->
+ <!-- 톰캣 startup.bat 안켜도 실행 정상적으로 된다. -->
+ <a href="https://www.naver.com">naver</a>
+ <a href="https://www.daum.net">Daum</a>
+ <a href="https://www.google.com">Google</a>
+ <hr>
+ 
+ <a href="https://www.naver.com" target="_blank">naver</a>
+ <a href="https://www.daum.net" target="_blank">Daum</a>
+ <a href="https://www.google.com" target="_blank">Google</a>
+ <hr>
+ <!-- 현재 프로젝트 문서 연결 -->
+ <!-- 상대주소 (현재 내 위치 기준) -->
+ <!-- ../는 한개 빠져나옴, 대소문자 구분해야 함!! -->
+ <a href="../day01/Ex06_Colors.html">문서 1</a>
+ <!-- 절대주소 (root부터 시작, /로 시작해서 오는 것은 무조건 상대주소!!) -->
+ <a href="/01_01_html/day01/Ex06_Colors.html">문서 2</a>
+ <hr>
+ 
+ <h2>같은 문서에서 다른 위치로 이동 (name 이동)</h2>
+ 
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Frontend</title>
+<style type="text/css">
+	
+</style>
+</head>
+<body>
+ 	<div id="mydiv">
+ 		<h1>개발자 지원서</h1>
+ 		<p> HTML, CSS, JavaScript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.
+ 		<hr>
+ 		<form>
+ 			<h3>개인 정보</h3>
+ 			<ul>
+ 				<li>
+ 					<label for="sname">이름</label>
+ 					<input type="text" id="sname" name="name" placeholder="공백 없이 입력하세요">
+ 				</li>
+ 				<li>
+ 					<label for="sphone">연락처</label>
+ 					<input type="text" id="sname" name="name">
+ 				</li>
+ 			</ul>
+ 		</form>
+ 		
+ 		</p>
+ 	</div>
+</body>
+</html>

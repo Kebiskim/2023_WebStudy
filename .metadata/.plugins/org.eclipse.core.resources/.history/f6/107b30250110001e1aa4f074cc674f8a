@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Layout</title>
+</head>
+<body>
+<h1>HTML Layout - example</h1>
+<header>
+	<h2>Cities</h2>
+</header>
+<nav>
+	<ul>
+		<li><a href="#">London</a></li>
+		<li><a href="#">Paris</a></li>
+		<li><a href="#">Seoul</a></li>
+	</ul>
+</nav>
+<section>
+	<article></article>
+	<article></article>
+	<article></article>
+</section>
+<aside></aside>
+<footer></footer>
+</body>
+</html>

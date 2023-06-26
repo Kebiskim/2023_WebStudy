@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Frontend</title>
+<style type="text/css">
+	h1{
+		color:lightblue;
+	}	
+</style>
+</head>
+<body>
+	<form>
+ 	<fieldset>
+ 		<legend>배송 정보</legend>
+ 		<!-- <label for="id"> input과 label을 연결하는 역할을 한다. -->
+ 		<label for="addr">이름 </label><input type="text" name="addr" id="addr">
+ 	</fieldset>
+	 
+	
+</body>
+</html>

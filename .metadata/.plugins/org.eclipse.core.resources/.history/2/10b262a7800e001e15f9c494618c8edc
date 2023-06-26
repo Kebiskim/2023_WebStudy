@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+	CSS(style 적용 3가지 방법)
+	1. 인라인 - 시작 태그에 style 속성 사용
+	2. internal (내부) -> head 태그 안에 style 태그 사용
+	3. external (외부) -> CSS 파일을 별도로 만들어서 head 태그안에서 link 태그를 사용
+ -->
+</body>
+</html>

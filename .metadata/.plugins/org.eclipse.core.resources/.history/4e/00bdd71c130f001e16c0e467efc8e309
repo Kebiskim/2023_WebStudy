@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 Floating</title>
+</head>
+<body>
+<!-- 
+	CSS Float 속성을 이용해서 이미지가 텍스트의 오른쪽이나 왼쪽에 떠있게 한다.
+ -->
+</body>
+</html>

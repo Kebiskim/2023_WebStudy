@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NewsLetter</title>
+<style type="text/css">
+	#header{
+		width: 100%; /* 부모 요소의 너비와 같게. */
+		height: 60px;
+		text-align: center;
+	}
+	#right-sidebar{
+		width: 150px;
+		height: 600px;
+		background-color: pink;
+		float: left;
+	}
+	ul.nav{
+ 		background-color:lightgray;
+ 		color: white;
+ 		list-style-type:none;
+ 		padding:0;
+ 		margin:0;
+ 	}
+	.nav li{
+ 		display:inline-block;
+ 		padding:20px;
+ 		font-size:20px;
+ 		margin:auto;
+ 	}
+	#footer{
+		width: 100%;
+		height: 100px;
+		background-color: lightgary;
+		clear: left;
+	}
+</style>
+</head>
+<body>
+<div id="mydiv">
+		<header id="header">
+			<h1>한국 ICT 인재 개발원 소식</h1>
+		</header>
+		<ul class="nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Content</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<section id="contents">
+			<article>
+				<h1>본문</h1>
+				You can use the overflow
+			</article>
+			<article>
+				<h1>본문</h1>
+			</article>
+			<article>
+				<h1>본문</h1>
+			</article>
+			<article>
+				<h1>본문</h1>
+			</article>
+		</section>		
+		<aside id="right-sidebar">
+			<h1>사이드바</h1>
+		</aside>
+		<footer id="footer">
+			<h1>푸터</h1>
+		</footer>
+	</div>
+</body>
+</html>

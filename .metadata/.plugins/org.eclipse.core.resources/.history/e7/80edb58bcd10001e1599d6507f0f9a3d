@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<svg style="width:300px; height:300px;">
+		<rect style="width:150px; height:250px; fill:skyblue">
+	</svg>
+
+	<!-- 둥근 모서리사각형 : roundrect -->
+	<svg style="width: 100px; height: 100px">
+		<rect x="5" y="5" rx=10 ry="10" style="width:90; height:90; stroke:blue; fill:orange">
+	</svg>
+
+	<!-- 타원 : eclipse rx=>수평, ry="수직" -->
+	<svg style="width:300px; height:200px">
+		<ellipse cx="150" cy="100", rx="70", ry="50">
+	</svg>
+	<!-- 직선 line -->
+	<svg style="width: 150px; height:150px; border:1px solid red;">
+		<line x1="100" y1="50", x2="200", y2=0 style="stroke:blue; stroke-width:5px">
+	</svg>
+</body>
+</html>

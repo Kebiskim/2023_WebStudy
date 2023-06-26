@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NewsLetter</title>
+<style type="text/css">
+	#header{
+		width: 100%; /* 부모 요소의 너비와 같게. */
+		height: 60px;
+		text-align: center;
+	}
+	#contents{
+		width: 80%px;
+		height: 600px;
+		/* 숫자를 지정하면, 늘리고 줄이고 할 때 내용이 사라짐. (깨짐) */
+		/* 줄이는 걸 안 만들었을 경우에는 크롬에서 최적화되어 있고, 최대 확대해서 써라~ 이런식으로 쓰고 욕먹는다. */
+		float: left;
+	}
+	#right-sidebar{
+		width: 300px;
+		height: 600px;
+		float: right;
+	}
+	ul.nav{
+ 		background-color:lightgray;
+ 		color: white;
+ 		list-style-type:none;
+ 		padding:0;
+ 		margin:0;
+ 	}
+	.nav li{
+ 		display:inline-block;
+ 		padding:20px;
+ 		font-size:20px;
+ 		margin:auto;
+ 	}
+	#footer{
+		width: 100%;
+		height: 100px;
+		background-color: lightgary;
+		clear: left;
+	}
+</style>
+</head>
+<body>
+<div id="mydiv">
+		<header id="header">
+			<h1>한국 ICT 인재 개발원 소식</h1>
+		</header>
+		<ul class="nav">
+			<li>Home</li>
+			<li>News</li>
+			<li>Content</li>
+			<li>About</li>
+		</ul>
+		<section id="contents">
+			<article>
+				<h1>본문</h1>
+				You can use the overflow You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+			</article>
+			<article>
+				<h1>본문</h1>
+				You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+			</article>
+			<article>
+				<h1>본문</h1>
+				You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+			</article>
+			<article>
+				<h1>본문</h1>
+				You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+			</article>
+		</section>		
+		<aside id="right-sidebar">
+			<h1>aside</h1>
+			You can use the overflowYou can use the overflowYou can use the overflowYou can use the overflowYou can use the overflow
+		</aside>
+		<footer id="footer">
+			<h1>footer</h1>
+		</footer>
+	</div>
+</body>
+</html>

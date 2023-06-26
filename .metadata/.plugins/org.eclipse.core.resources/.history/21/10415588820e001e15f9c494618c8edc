@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style01.css">
+<style type="text/css">
+h3 {
+	color: tomato;
+	background-color: skyblue;
+}
+</style>
+<!-- 아래줄을 style 밖에 쓴 경우에는, 수정된 부분이 적용되는데, 위로 가면 밑에 적용이 안됨. -->
+<!-- 전체 style의 스타일을 지정하는 것이 style 태그 -->
+<!-- <link rel="stylesheet" href="style01.css"> -->
+</head>
+<body>
+	<!-- HTML에서는 자동정렬 쓰지 말자!! -->
+	<!-- 
+	CSS(style 적용 3가지 방법)
+	1. 인라인 - 시작 태그에 style 속성 사용
+	2. internal (내부) -> head 태그 안에 style 태그 사용
+	3. external (외부) -> CSS 파일을 별도로 만들어서 head 태그안에서 link 태그를 사용
+ -->
+	<h2>이것은 인라인 CSS 방식이다.</h2>
+	<h2 style="color: Chocolate">이것은 인라인 CSS 방식이다.</h2>
+	<h2>이것은 인라인 CSS 방식이다.</h2>
+	<hr>
+
+	<h3>이것은 internal CSS 방식이다.</h3>
+	<h3>이것은 internal CSS 방식이다.</h3>
+	<h3>이것은 internal CSS 방식이다.</h3>
+	<hr>
+	
+	<h4>이것은 external CSS 방식이다.</h4>
+	<h4>이것은 external CSS 방식이다.</h4>
+	<h4>이것은 external CSS 방식이다.</h4>
+	<hr>
+	
+	
+</body>
+</html>

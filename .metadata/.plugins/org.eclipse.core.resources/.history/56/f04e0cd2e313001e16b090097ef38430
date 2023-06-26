@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>속성 선택자</title>
+<style type="text/css">
+	ul{list-style-type: none;}
+	li{
+		width: 120px;
+		display: inline-block;
+		margin: 10px;
+	}
+	li a{
+		
+	}
+</style>
+</head>
+<body>
+	<!-- 
+		- 속성 선택자 : [속성이름]선택자 => 해당 속성과 일치하는 태그를 선택
+		- 			선택자[속성=값] => 해당 속성과 일치하는 태그를 선택
+		- 			선택자[속성^=값] => 해당 속성이 ~로 시작하는 태그 선택
+		- 			선택자[속성*=값] => 해당 속성이 ~을 포함하는 태그 선택
+		- 			선택자[속성&=값] => 해당 속성이 ~로 끝나는 태그 선택
+	 -->
+	 
+	 <ul>
+	 	<li><a>메인 메뉴 : </a></li>
+	 	<li><a href="#">메뉴 1</a></li>
+	 	<li><a href="#">메뉴 2</a></li>
+	 	<li><a href="#">메뉴 3</a></li>
+	 	<li><a href="#">메뉴 4</a></li>
+	 </ul>
+</body>
+</html>

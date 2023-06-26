@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reading</title>
+<style>
+	#table1{
+		width:30%;
+		border-collapse: collapse;
+		/* 캡션을 아래로 */
+		caption-side: bottom;
+	}
+	table, th, td{
+		border: 1px solid black;
+		/* padding은 table이 아니라, th, td에 넣는 것이 맞음!! */
+		padding: 5px;
+		text-align: center;
+	}
+	th{
+		background-color:#EEE;
+	}
+	
+</style>
+</head>
+<body>
+	<table id="table1">
+	    <caption class="cap-bottom">2019 국민 독서실태</caption>
+	    <colgroup>
+	    	<col class="bg1">
+	    </colgroup>
+	    <thead>
+	      <tr class="bg1">
+	        <th>구분</th>
+	        <th>성인</th>
+	        <th>독서자</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <th>종이책</th>
+	        <td>6.1권</td>
+	        <td>11.8권</td>
+	      </tr>
+	      <tr>
+	        <th>전자책</th>
+	        <td>1.2권</td>
+	        <td>7.1권</td>
+	      </tr>
+	      <tr>
+	        <th>오디오북</th>
+	        <td>0.2권</td>
+	        <td>5.5권</td>
+	      </tr>
+	    </tbody>
+	  </table>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Frontend</title>
+<style type="text/css">
+	body{
+				width:30%;
+			}
+			filedset{
+				padding:20px;
+			}
+			legend{
+				font-weight: bold;
+			}
+			#memo{
+				vertical-align: top;
+			}  
+			#date{
+				width:30%;
+			}
+			input{
+				margin-left:10px;
+				width:80%;
+			} 
+			textarea{
+				margin-left:10px;
+			}
+			#small{
+				font-size:12px;
+			}
+</style>
+</head>
+<body>
+ 	<fieldset>
+ 		<legend><b>배송 정보</b></legend>
+ 		<!-- <label for="id"> input과 label을 연결하는 역할을 한다. -->
+ 		<div><label for="name">이름 </label><input type="text" name="name" id="name"></div>
+ 		<div><p><label for="address">배송 주소 </label><input type="text" name="address" id="address"></p></div>
+ 		<p><label for="email">이메일 </label><input type="text" name="email" id="email"></p>
+ 		<p><label for="phone">연락처 </label><input type="text" name="phone" id="phone"></p>
+	 	<p>배송 지정 <input type="date" name="date">(주문일로부터 최소 3일 이후)</p>
+ 		<label for="phone">메모 </label><textarea rows="5" cols="25"></textarea><p>
+ 	</fieldset>
+	
+</body>
+</html>

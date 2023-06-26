@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Frontend</title>
+<style type="text/css">
+	h1{
+		color:lightblue;
+	}	
+</style>
+</head>
+<body>
+	<form>
+ 	<fieldset>
+ 		<legend>배송 정보</legend>
+ 		<!-- <label for="id"> input과 label을 연결하는 역할을 한다. -->
+ 		<label for="name">이름 </label><input type="text" name="name" id="name">
+ 		<label for="address">배송 주소 </label><input type="text" name="address" id="address">
+ 		<label for="email">이메일 </label><input type="text" name="email" id="email">
+ 		<label for="phone">연락처 </label><input type="text" name="phone" id="phone">
+ 		<label for="phone">배송 지정 </label><input type="text" name="phone" id="phone">
+ 	</fieldset>
+	 
+	
+</body>
+</html>

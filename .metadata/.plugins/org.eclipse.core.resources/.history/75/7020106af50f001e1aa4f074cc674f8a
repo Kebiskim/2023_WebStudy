@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>다른 페이지를 가져오는 iframe</title>
+</head>
+<body>
+<!-- 
+	보안적인 요소로 권장하지는 않는다.
+	웹 페이지내에서 다른 웹페이지를 표시할 때 사용
+	<iframe src="url"></iframe>
+		속성으로는 width, height, style="border"
+ -->
+</body>
+</html>

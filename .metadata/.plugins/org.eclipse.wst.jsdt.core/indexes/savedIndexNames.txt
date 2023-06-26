@@ -1,0 +1,15 @@
+INDEX VERSION 1.4+D:\KSW\webStudy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+210703014.index
+2772289399.index
+5404016.index
+3390223551.index
+1952115049.index
+2572887242.index
+4246572932.index
+4123240984.index
+2362448358.index
+1836050046.index
+995709652.index
+758024816.index
+3527079905.index
+547833717.index

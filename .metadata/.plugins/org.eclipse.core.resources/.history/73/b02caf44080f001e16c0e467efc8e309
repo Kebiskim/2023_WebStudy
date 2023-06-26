@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a 태그 속성</title>
+</head>
+<body>
+<!-- 
+	a: link		=> 일반적인 링크색 (아직 방문하지 않음, blue)
+	a: visited  => 방문한 적이 있는 
+	a: active	=>
+	a: hover	=>
+ -->
+</body>
+</html>

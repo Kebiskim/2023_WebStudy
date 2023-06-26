@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Signup</title>
+<style>
+	h1{
+		color:lightblue;
+	}
+</style>
+</head>
+<body>
+	<h1>회원 가입을 환영합니다</h1>
+	<fieldset>
+	<legend><b>사용자 정보</b></legend>
+	</fieldset>
+	
+</body>
+</html>

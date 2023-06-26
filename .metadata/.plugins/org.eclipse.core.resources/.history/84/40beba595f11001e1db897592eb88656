@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS</title>
+</head>
+<body>
+<!-- 
+	CSS문법 : 선택자(selector){속성(property) : 값; 속성(property) : 값...);
+	
+	- 전체 선택자 : *
+	- 태그 선택자 : 해당 태그
+	- 클래스 선택자 : .(점) 여러개 선택이 가능
+ -->
+</body>
+</html>

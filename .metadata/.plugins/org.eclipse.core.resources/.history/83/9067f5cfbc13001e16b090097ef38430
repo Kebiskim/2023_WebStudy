@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/* 그림 크기가 250px이다. 그림 크기에 맞추자. */
+div{
+
+}
+</style>
+</head>
+<body>
+	<img src="../images/boxmodel.png" style="width: 250px">
+	<div>박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기
+	박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기
+	박스 사이즈 구하기와 박스 사이즈 고정하기박스 사이즈 구하기와 박스 사이즈 고정하기</div>
+</body>
+</html>

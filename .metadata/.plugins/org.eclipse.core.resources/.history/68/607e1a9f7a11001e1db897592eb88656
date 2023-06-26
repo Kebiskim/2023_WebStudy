@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ul을 이용해서 세로 메뉴 만들기</title>
+<style type="text/css"></style>
+</head>
+<body>
+	<h1> 세로 메뉴 또는 버튼 </h1>
+	<nav>
+		<ul>
+			<li><a href="#"></a></li>
+		</ul>
+	</nav>
+</body>
+</html>

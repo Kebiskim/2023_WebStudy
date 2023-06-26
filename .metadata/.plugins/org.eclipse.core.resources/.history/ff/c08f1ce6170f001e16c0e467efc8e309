@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>배경그림</title>
+</head>
+<body>
+<!-- 
+	보통 <body background-image:url(그림위치)
+		특별히 지정하지 않으면 
+ -->
+</body>
+</html>

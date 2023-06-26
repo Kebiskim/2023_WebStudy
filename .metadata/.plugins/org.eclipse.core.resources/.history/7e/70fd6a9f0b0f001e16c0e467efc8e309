@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	a:link, a:visited{
+		background-color: tomato;
+		color: white;
+		text-decoration: none;
+	}
+
+</style>
+</head>
+<body>
+
+</body>
+</html>

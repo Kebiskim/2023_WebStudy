@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>text-decoration, text-shadow 속성</title>
+</head>
+<body>
+	<h2>text-decoration</h2>
+	<p style="text-decoration:">none</p>
+	<p>underline</p>
+	<p>overline</p>
+	<p>line through</p>
+</body>
+</html>

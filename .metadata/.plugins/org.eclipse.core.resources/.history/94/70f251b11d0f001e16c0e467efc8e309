@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table : 테이블 (표)</title>
+</head>
+<body>
+<!-- 
+	table 태그 안에 존재하는 태그들
+	- thread 태그 : 테이블의 머리글, 생략가능
+	- tbody 태그 : 테이블 본문
+	- tfoot 태그 : 테이블의 꼬리글, 생략가능
+ -->
+</body>
+</html>

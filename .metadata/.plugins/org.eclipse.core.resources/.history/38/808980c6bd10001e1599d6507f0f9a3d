@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Signup</title>
+<style>
+	h1{
+		color:lightblue;
+	}
+	.same-align{
+		line-height:30px;
+	}
+</style>
+</head>
+<body>
+	<h1>회원 가입을 환영합니다.</h1>
+	<form>
+		<fieldset>
+			<legend>
+			</legend>
+		</fieldset>
+	
+	</form>
+</body>
+</html>

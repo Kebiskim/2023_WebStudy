@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Frontend</title>
+</head>
+<body>
+	<h1>프런트엔드 개발자 지원서</h1>
+	HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.
+	<hr>
+	<h3>개인 정보</h3>
+<!-- <label for="name">이름 </label><input type="text" name="name" id="name"> -->
+ 	 <p>이름 <input type="text" name="age" placeholder="공백 없이 입력하세요"></p>
+ 	 <p>연락처 <input type="text" name="age" placeholder="공백 없이 입력하세요"></p>
+	<h3>지원 분야</h3>
+	<li>
+ 		<ul style="list-style-type: upper-alpha;">
+			<li>작은사이즈</li>
+			<li>중간사이즈</li>
+ 			<li>큰사이즈</li>
+ 		</ul>	
+ 	</li>
+	 
+	
+</body>
+</html>

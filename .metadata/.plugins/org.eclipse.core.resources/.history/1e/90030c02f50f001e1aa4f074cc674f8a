@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#myheader{
+		background-color:#d3eeee;
+		text-align:center;
+		padding:40px;
+	}
+	.city{
+		background-color:lightgray;
+		width:200px;
+		height:200px;
+		float:left;
+		padding:20px;
+		/* 각 칸 떨어트리기 margin */
+		margin:20px;
+	}
+</style>
+</head>
+<body>
+	<!-- <h1 id=myheader>My Cities</h1> -->
+	<h1 id=myheader>My Cities</h1>
+	<div style="width:1200px; margin:auto;">
+		<div class="city">
+			<h2>London</h2>
+			<p>London is the capital of England.</p>
+		</div>
+		<div class="city">
+			<h2>Paris</h2>
+			<p>Paris is the capital of France.</p>
+		</div>
+		<div class="city">
+			<h2>Seoul</h2>
+			<p>Seoul is the capital of Korea.</p>
+		</div>
+		<div class="city">
+			<h2>London</h2>
+			<p>London is the capital of England.</p>
+		</div>
+		
+	</div>
+</body>
+</html>
