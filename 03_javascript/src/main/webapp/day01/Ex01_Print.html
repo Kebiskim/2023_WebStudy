@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>화면 출력(브라우저 출력)</title>
+<!-- ☆ HTML에서 JS를 쓰는 것이기 때문에, JS 파일이 아니라 HTML 파일로 만들었음!! -->
+<!-- 헤더부분에 사용 가능 -->
+<script type="text/javascript">
+	// 1. 자바스크립트를 이용해서 브라우저에 화면 출력하기
+	// - head에 있는 것이 먼저 실행된다.
+	// - body 부분은 순서대로 실행된다.
+	
+	// document => 현재 문서에 
+	document.write("Hello");
+	// JS는 만들기는 쉬운데 고치기가 어려움. F11을 잘 사용할 줄 알아야 한다!!
+	// "안에는 "를 못 넣기 때문에, '로 대체한다. 그리고 그 안에 "를 쓴다.
+	// 태그와 스타일을 사용할 수 있다. (write는 실무에서 쓸일 없음 (println처럼))
+	document.write("<h3 style='color: red'> 안녕하세요 </h3>");
+	document.write('<h3 style="color: green"> 안녕하세요 </h3>');
+	
+	// 2. 콘솔창에 출력(f12=>개발자모드) 오류를 찾으려면, f12에서 봐야 한다!!
+	// ; 해도 되고 안해도 된다!
+	console.log("콘솔창 : 안녕하세요")
+	console.log("콘솔창 : 안녕하세요!!");
+	
+	// 3. 대화상자(alert(경고창), confirm(확인창), prompt(입력창))
+	// alert는 가장 먼저 뜬다! (비밀번호가 틀렸다거나 할 때)
+	alert("방가방가~~~")
+	
+	// 4. innerHTML => 나중에 배움
+	// 현재 웹 페이지 특정 부분에 JS를 이용해서 데이터를 삽입하거나 추출할 때 사용 (ID 중복 확인 등. getter, setter 개념)
+</script>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write("Hi~~~~ 1");
+	</script>
+	<h2>Hello JavaScript</h2>
+	<!-- 바디 부분에 사용 가능 -->
+	<script type="text/javascript">
+		document.write("Hi~~~~ 2");
+	</script>
+</body>
+</html>

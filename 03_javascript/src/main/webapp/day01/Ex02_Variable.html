@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Variable(변수)</title>
+<script type="text/javascript">
+	// 변수 : 자료형을 지정하지 않는다.
+	//		모든 데이터를 저장할 수 있다.
+	//		변수 이름을 숫자로 시작할 수 없다.
+	//		대소문자를 구별한다. (KOR, kor, Kor 모두 다르다.)
+	//		변수는 소문자로 시작, 상수는 모두 대문자로 시작. (자바랑 동일)
+	// ** 여러 문자 표기법 : 카멜표기법(자바에서 쓰는), 팟홀표기법
+	//		카멜 : myFirstVariable
+	//		팟홀 : my_first_variable
+	
+	// 변수 생성
+	// var 변수이름 = 데이터(정수, 실수, boolean, char, string, null, function, class...);
+	var res = 1;
+	document.write("<h2>res="+res+"</h2>");
+	
+	// + 대신에 ,가 들어가도 된다. java 습관이 있으니 걍 + 써도 된다
+	res = 3.14;
+	document.write("<h2>res=", res, "</h2>");
+	
+	res = true;
+	document.write("<h2>res=", res, "</h2>");
+	
+	// function(메서드) 제대로 안썼을 때 나는 오류
+	// ★ Uncaught TypeError: document.wr34ite is not a function
+	res = 'c';
+	// document.wr34ite("<h2>res=", res, "</h2>");
+	document.write("<h2>res=", res, "</h2>");
+	
+	res = "MyBoys";
+	document.write("<h2>res=", res, "</h2>");
+	document.write("<h2>res=" + res + "</h2>");
+	
+	res = null;
+	document.write("<h2>res=", res, "</h2>");
+	
+	// 선언 안해도 실행이 된다. (권장은 X)
+	res2 = "Hello JavaScript";
+	document.write("<h2>res2=", res2, "</h2>");
+	
+	// res3=undefined  =>  정의되지 않았다. (선언 후 데이터를 저장하지 않으면 이렇게 출력! 오류는 안 나옴!!)
+	var res3;
+	document.write("<h2>res3=", res3, "</h2>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

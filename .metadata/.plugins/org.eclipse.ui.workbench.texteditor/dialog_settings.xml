@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="&lt;p class=&quot;indent&quot;&gt;"/>
+		<item key="selection" value="tel"/>
 		<list key="findhistory">
+			<item value="tel"/>
+			<item value="intro"/>
+			<item value="본문"/>
+			<item value="사이드바"/>
 			<item value="&lt;p&gt;"/>
 			<item value="&lt;/li&gt;"/>
 			<item value="&lt;li&gt;"/>
@@ -19,9 +23,9 @@
 			<item value="memo"/>
 			<item value="name"/>
 			<item value="날짜"/>
-			<item value="London"/>
 		</list>
 		<list key="replacehistory">
+			<item value="article-1"/>
 			<item value="&lt;p class=&quot;indent&quot;&gt;"/>
 			<item value=""/>
 			<item value="passcheck"/>

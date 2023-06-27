@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>For 문</title>
+<script type="text/javascript">
+	// 문법은 자바 문법과 같음
+	
+	// 7단 출력
+	var times = 7;
+	for (var i = 1; i <= 9; i++) {
+		document.write("<h2>" + times + " * " + i + " = " + times * i);	
+	}
+	document.write("<hr>");
+	// 구구단 - 1
+	for (var times = 2; times <= 9; times++) {
+		document.write("<h2>" + times + " 단 ");
+		for (var i = 1; i <= 9; i++) {
+			document.write("<h2>" + times + " * " + i + " = " + times * i);
+		}
+	}
+	document.write("</h2>");
+	document.write("<br>");
+	document.write("<hr>");
+	
+	// 구구단 - 2
+	for (var times = 2; times <= 9; times++) {
+		for (var i = 1; i <= 9; i++) {
+			/* 띄어쓰기 그냥 spacebar 하면 안 먹음!! */
+			document.write(times + " * " + i + " = " + times * i + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+		}
+		document.write("<br>");
+	}
+	document.write("<br>");
+	document.write("<hr>");
+	// 구구단 - 3
+	for (var times = 1; times <= 9; times++) {
+		for (var i = 2; i <= 9; i++) {
+			document.write(i + " * " + times + " = " + times * i + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+		}
+		document.write("<br>");
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

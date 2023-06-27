@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Switch</title>
+<script type="text/javascript">
+	// 자바문법과 같음
+	// 변수 k1이 a, A 이면 아프리카, b, B이면 브라질,
+    // c, C 이면 캐나다 나머지는 대한민국
+   	var k1 = "";
+	k1 = prompt("수도를 입력하세요", "서울");
+	var country = "대한민국";
+	
+/* 	if (k1 === 'a' || k1 === 'A'){
+		country = "아프리카";
+	}else if (k1 === 'b' || k1 === 'B'){
+		country = "브라질";
+	}else if (k1 === 'c' || k1 === 'C'){
+		country = "대한민국";
+	}
+	document.write("<p>" + k1 + "은 " + country + "입니다."); */
+	
+	switch (k1){
+		case "a": 
+		case "A": country = "아프리카"; break;
+		case "b": 
+		case "B": country = "브라질"; break;
+		case "c": 
+		case "C": country = "캐나다"; break;
+		default: country = "대한민국"; break;
+	}
+	document.write("<h2>" + k1 + "은 " + country + "입니다.</h2>"); 
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
