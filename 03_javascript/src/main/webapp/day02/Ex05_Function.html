@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>function() :  함수</title>
+<script type="text/javascript">
+	// 이렇게도 사용 가능
+	// 선언함수가 먼저 만들어지고 나중에 실행된다.
+	test1();
+	function test1(){
+		document.write("Hi~~~<br>");
+	}
+	// 이렇게 해도 ㅎㅇ가 나옴!!
+	test1();
+	function test1(){
+		document.write("ㅎㅇ<br>");
+	}
+	test1();
+	document.write("<hr>");
+	// ★ 함수쪽 먼저 읽고 나서, 내용을 실행하는 순으로 작동!! (순서대로 읽지 않음) (자바의 static과 비슷)
+</script>
+<script type="text/javascript">
+	// 위에서 생성된 것 아래에서 사용 가능!
+	test1();
+	
+	// ☆ 익명 함수 => 미리 만들어지지 않고, 실행할 때 만들어진다!!
+	// 오류 발생 (Uncaught TypeError: test2 is not a function)
+	test2();
+	var test2 = function(){
+		document.write("Hiii~~~<br>");
+	}
+	test2();
+	var test2 = function(){
+		document.write("Hiii2222<br>");
+	}
+	test2();
+</script>
+<script type="text/javascript">
+	document.write("<hr>");
+	document.write("3번<br>");
+	test3();
+	function test3(){
+		document.write("Hi^^ <br>");	
+	}
+	test3();
+	var test3 = function(){
+		document.write("헬로 2<br>");
+	}
+</script>
+<script type="text/javascript">
+	document.write("<hr>");
+	document.write("4번<br>");
+	test4();
+	var test4 = function(){
+		document.write("헬로 2<br>");
+	}
+	test4();
+	function test4(){
+		document.write("Hi^^ <br>");
+	}
+	test4();
+	// 첨 생성될 때 아래것만 생성되어서 test4는 아래거로 찍히지만, 이후로 
+	// 다시 코드를 읽을 때 var test4가 생성되면서 밑에 test4(); 두개는 Hi로 찍힘!
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event</title>
+<script type="text/javascript">
+	function test1(){
+		var now = new Date();
+		// 자바에서와 마찬가지로 getMonth에 +1 해줘야 한다!
+		var s = now.getFullYear()+". "+(now.getMonth()+1)+". "+now.getDate()+
+		". "+now.getHours()+" : "+now.getMinutes()+" : "+now.getSeconds();
+		// s를 ID 있는 곳에다 넣어주는 것
+		document.getElementById("clock1").innerHTML = s;
+	}
+	function test2(){
+		setInterval(() => {
+			document.getElementById("clock1").innerHTML = new Date();
+		}, 500);
+	}
+	function test3(){
+		// 날짜만 
+		document.getElementById("clock3").innerHTML = new Date().toLocaleDateString();
+		// 시간만
+		document.getElementById("clock3").innerHTML = new Date().toLocaleTimeString();
+		document.getElementById("clock4").innerHTML = new Date().toLocaleString();
+	}
+	function test4(){
+		// 날짜 + 시간
+		document.getElementById("clock4").innerHTML = new Date().toLocaleString();
+	}
+	test1();
+</script>
+</head>
+<body>
+	<h2><span id="clock1"></span></h2>
+	<h2><span id="clock2"></span></h2>
+	<h2><span id="clock3"></span></h2>
+	<h2><span id="clock4"></span></h2>
+	<hr>
+	
+	<button onclick="test1()">시계1</button>
+	<button onclick="test2()">시계2</button>
+	<button onclick="test3()">시계3</button>
+	<button onclick="test4()">시계4</button>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event</title>
+<style type="text/css">
+	.box{
+		border: 1px solid black;
+		width: 100px;
+		height: 100px;
+		margin: auto;
+ 		/* display: none; */
+ 		text-align: center;
+ 		/* height의 px와 같은 사이즈로 주면 된다!! */
+ 		line-height: 100px;
+ 	}
+</style>
+<!-- 보통 script는 style 가운데 넣는다! -->
+<script type="text/javascript">
+	function setRed(){
+		document.getElementById("box1").style.backgroundColor = "red";
+		document.getElementById("box1").style.color = "white";
+	}	
+	function setGreen(){
+		document.getElementById("box1").style.backgroundColor = "green";
+		document.getElementById("box1").style.color = "white";
+	}	
+	function setBlue(){
+		document.getElementById("box1").style.backgroundColor = "blue";
+		document.getElementById("box1").style.color = "white";
+	}	
+</script>
+</head>
+<body>
+	<div style="text-align: center; padding: 20px">
+		<button onclick="setRed()">RED</button>
+		<button onclick="setGreen()">GREEN</button>
+		<button onclick="setBlue()">BLUE</button>
+	</div>
+	<!-- JS 함수는 위에 넣어도 되고 아래 넣어도 된다!! -->
+	<div class="box" id="box1" style="background-color: white">BOX</div>
+</body>
+</html>

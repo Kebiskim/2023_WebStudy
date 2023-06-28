@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="tel"/>
+		<item key="selection" value="||"/>
 		<list key="findhistory">
+			<item value="&amp;&amp;"/>
+			<item value="warp"/>
+			<item value="wapr"/>
+			<item value="images"/>
 			<item value="tel"/>
 			<item value="intro"/>
 			<item value="본문"/>
@@ -19,12 +23,11 @@
 			<item value="font-size:150%; */"/>
 			<item value="font-size:150%;"/>
 			<item value="자식"/>
-			<item value="mydiv"/>
-			<item value="memo"/>
-			<item value="name"/>
-			<item value="날짜"/>
 		</list>
 		<list key="replacehistory">
+			<item value="||"/>
+			<item value="wrap"/>
+			<item value="../images"/>
 			<item value="article-1"/>
 			<item value="&lt;p class=&quot;indent&quot;&gt;"/>
 			<item value=""/>
@@ -37,9 +40,6 @@
 			<item value="td"/>
 			<item value="tomato"/>
 			<item value="external"/>
-			<item value="h4"/>
-			<item value="internal"/>
-			<item value="h3"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

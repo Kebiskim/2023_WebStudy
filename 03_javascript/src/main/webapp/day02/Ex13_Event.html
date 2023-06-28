@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event</title>
+<script type="text/javascript">
+	function test1(){
+		// 특정 위치에 글자 삽입(태그 포함할 수 있다.)
+		// 아랫줄로 내려도 작성 된다.
+		document.getElementById("demo1").innerHTML 
+		= "ICT 인재 개발원";
+	}
+	function test2(){
+		// 스타일 지정
+		document.getElementById("demo2").style.display = "none";
+	}
+	function test3(){
+		// 스타일 지정
+		document.getElementById("demo3").style.fontSize = "30px";
+	}
+	function test4(){
+		// demo4에서 content 얻어서 소문자로 변환하기!
+		var k = document.getElementById("demo4").innerHTML.toLowerCase();
+		// ☆ 오류나면 log 찍어보자!!
+		// console.log(">>>>>>>>>>>" + k);
+		// document.getElementById("demo4").toLowerCase();
+		// document.getElementById("demo4").innerHTML = k;
+		document.getElementById("demo4").innerHTML = k;
+		// TextField에서는 보통 value로 넣는다.
+		document.getElementById("uname").value = k;
+	}
+</script>
+</head>
+<body>
+	<h2>ID 선택자를 이용한 이벤트</h2>
+	<p id="demo1"></p>
+	<p id="demo2">Click One</p>
+	<p id="demo3">Click Two</p>
+	<p id="demo4">Click Three</p>
+	<hr>
+	
+	<!-- form 태그 쓰면 전송해 버림 (다시 자기껄 호출해버림) -->
+<!-- 	<form> -->
+		<!-- onclick 대신 아래거 사용 -->
+		이름 : <input type="text" id="uname" name="uname" onchange="test4()">
+<!-- 	</form> -->
+	<hr>
+	
+	<!-- demo1에 'ICT 인재 개발원' 글자 삽입 -->
+	<button onclick="test1()">눌러주세요1</button>
+	
+	<!-- demo2의 내용이 화면에 보이지 않게 -->
+	<button onclick="test2()">눌러주세요2</button>
+	
+	<!-- demo3의 글자가 30px가 된다. -->
+	<button onclick="test3()">눌러주세요3</button>
+	
+	<!-- demo4의 글자가 모두 소문자로 변경된다. -->
+	<button onclick="test4()">눌러주세요4</button>
+</body>
+</html>

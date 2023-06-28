@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Callback function</title>
+<script type="text/javascript">
+	function send_go1(){
+		// 3초 후에 myfunc 함수를 호출
+		// setTimeout(실행할 함수, 지연시간(밀리초)) => 내장 함수 (JS가 가지고 있는 함수)
+		// 밀리초 => 1,000 : 1초
+		setTimeout(myfunc, 3000);
+	}
+	function send_go2(){
+		// 내장함수의 인자 안에 함수를 실행하게끔 집어넣은 것!
+		setTimeout(function(){
+			alert("경고메세지2");	
+		}, 3000);
+	}
+	function send_go3(){
+		// 이런 식의 메서드 호출 => 람다식
+		setTimeout(() => {
+			alert("경고메세지3");
+		}, 3000);
+	}
+	
+	function send_go4(){
+		var cnt = 0;
+		// 람다 함수 + 반복 실행(1초마다)
+		setInterval(() => {
+			document.write("<h2>"); cnt++;
+			document.write(cnt+"<p>😒🙌😁👍😎</p>");
+			window.scrollTo(0, document.body.scrollHeight);
+		}, 1);
+	}
+		
+	function myfunc(){
+		alert("경고메세지1");
+	}
+</script>
+</head>
+<body>
+	<!-- 콜백함수 : 파라미터로 함수를 전달받아, 함수의 내부에서 실행하는 함수
+	이때 인자로 받은 함수를 콜백함수라고 한다.
+	사용이유 : 비동기(=같지 않다) JS 코드를 작성할 때 사용 -->
+	<button onclick="send_go1()">눌러주세요1</button>
+	<button onclick="send_go2()">눌러주세요2</button>
+	<button onclick="send_go3()">눌러주세요3</button>
+	<button onclick="send_go4()">눌러주세요4</button>
+</body>
+</html>

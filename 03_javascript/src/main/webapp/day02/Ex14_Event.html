@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event</title>
+<!-- 사용 불가능 (아래)
+<script type="text/javascript">
+	function mybtn(){
+		// 이벤트 리스너
+		// addEventListener("", function(){내용})
+		// addEventListener(ondblclick)
+		// => 오른쪽에 function() 은, 실행 부분을 함수로 만들어버린 것!!
+		document.getElementById("mybtn").addEventListener("click", function(){
+			document.getElementById("demo2").innerHTML = new Date();	
+		});
+	}
+</script>
+ -->
+</head>
+<body>
+	<!-- onclick 대신 id로 사용하는 경우. -->
+	<button id="mybtn">클릭</button>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<hr>
+	
+	<script type="text/javascript">
+		// 이벤트 리스너
+		// addEventListener("", function(){내용})
+		// addEventListener(ondblclick)
+		// => 오른쪽에 function() 은, 실행 부분을 함수로 만들어버린 것!!
+		document.getElementById("mybtn").addEventListener("click", function(){
+			document.getElementById("demo1").innerHTML = new Date();		
+</script>
+</body>
+</html>
