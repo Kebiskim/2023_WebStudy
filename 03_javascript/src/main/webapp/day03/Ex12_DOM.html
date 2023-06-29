@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>라이트 박스</title>
+<style type="text/css">
+	.row{
+		width: 420px;
+		margin: 0 auto;
+		margin-top: 150px;
+	}
+	.row ul{
+	/* list-style-type: decimal; 인 경우, list 앞에 숫자로 항목들을 표시함 */
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	.row ul li{
+	/* inline-block
+		display 속성이 inline-block으로 지정된 엘리먼트는 마치 하이브리드 모드처럼 동작함.
+		기본적으로 inline 엘리먼트처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치되지만, 
+		block 엘리먼트처럼 width와 height 속성 지정 및 margin과 padding 속성의 상하 간격 지정이 가능합니다. 
+		다시 말해서, 내부적으로는 block 엘리먼트의 규칙을 따르면서 외부적으로 inline 엘리먼트의 규칙을 따르게 되는 것.
+		대표적인 inline-block 엘리먼트로 <button>이나 <input>, <select> 태그 등을 들 수 있습니다. */
+		display: inline;
+	}
+	#lightbox{
+		position: fixed; /* 위치 고정 */
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.4);
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	#lightboxImage{
+		/* absolute : 부모 포지션을 따라감 */
+		/* position 속성을 별도로 지정해주지 않으면 기본값인 static이 적용됨.
+		position 속성이 static인 요소는 HTML 문서 상에서 원래 있어야하는 위치에 배치됨.
+		이 말은 요소들이 HTML에 작성된 순서 그대로 브라우저 화면에 표시가 된다는 것을 뜻하며, 
+		따라서 top, left, bottom, right 속성값은 position 속성이 static일 때는 무시됩니다. */
+		position: static;
+
+ 		/* 화면 이동 */
+		transform: translate(50%, 50%);
+		border: 5px solid white;
+	}
+</style>
+</head>
+<body>
+	<div class="row">
+		<ul>
+			<li><img src="../images/tree-1-thumb.jpg" data-src="../images/tree-1.jpg" class="pic"></li>
+			<li><img src="../images/tree-2-thumb.jpg" data-src="../images/tree-2.jpg" class="pic"></li>
+			<li><img src="../images/tree-3-thumb.jpg" data-src="../images/tree-3.jpg" class="pic"></li>
+			<li><img src="../images/tree-4-thumb.jpg" data-src="../images/tree-4.jpg" class="pic"></li>
+			<li><img src="../images/tree-5-thumb.jpg" data-src="../images/tree-5.jpg" class="pic"></li>
+			<li><img src="../images/tree-6-thumb.jpg" data-src="../images/tree-6.jpg" class="pic"></li>
+		</ul>
+	</div>
+ 	
+	<div id="lightbox">
+		<img alt="" src= "../images/tree-1.jpg" id="lightboxImage">
+	</div>
+	
+	<!-- ID만 하나고, 나머지는 여러개니까 Elements 이다. -->
+	<script type="text/javascript">
+		var pics = document.getElementsByClassName("pic");
+		var lightbox = document.getElementById("lightbox");
+		var lightboxImage = document.getElementById("lightboxImage");
+		
+		for (var i = 0; i < pics.length; i++) {
+			/* pics[i]가 showLightbox를 호출했으므로 아래의 this가 된다. */
+			pics[i].addEventListener("click", showLightbox);
+		}
+		
+		function showLightbox() {
+			/* this => 3번째 것이 클릭되어서 넘어오면, this는 3번째 것이 된다. JS에서 this는 자신을 호출한 대상. (자기자신 이랑은 약간 다름) */
+			var k = this.getAttribute("data-src");
+			lightboxImage.setAttribute("src", k);
+			lightbox.style.display = "block";
+		}
+		
+		/* 밑에 ); 안 넣으면 작동 안되니까 체크!! */
+		lightbox.addEventListener("click", function(){
+			lightbox.style.display = "none";
+		});
+	</script>
+
+</body>
+</html>
